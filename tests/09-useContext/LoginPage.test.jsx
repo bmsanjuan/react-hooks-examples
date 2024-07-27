@@ -1,11 +1,6 @@
 import { screen, render, fireEvent } from "@testing-library/react";
 import { UserContext } from "../../src/09-useContext/context/UserContext";
 import { LoginPage } from "../../src/09-useContext/LoginPage";
-import { useC } from "../../src/hooks/useTodo";
-
-jest.mock('../../src/hooks/useTodo');
-
-jest.mock()
 
 describe('Pruebas en <LoginPage />', () => {
 
